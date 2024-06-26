@@ -1,0 +1,8 @@
+def max_min(arr):
+    Max = max(arr)
+    Min = min(arr)
+    return Max,Min
+array = [3,4,1,88,5,0,10]
+Max,Min = max_min(array)
+print("The Maximum element is : ",Max)
+print("The Minimun element is :",Min)
